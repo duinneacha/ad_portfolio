@@ -21,6 +21,13 @@ permalink: /contact/
     Your message:
     <textarea name="message" required></textarea>
   </label>
+<br>
+  <!-- Honeypot field -->
+  <label style="display:none;">
+    Do not fill this out:
+    <input type="text" name="_honeypot" style="display:none;">
+  </label>
+  <br>  
   <br>
   <button type="submit">Send</button>
 </form>
