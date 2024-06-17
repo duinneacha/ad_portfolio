@@ -47,7 +47,7 @@ title: "Home"
 <footer>
   <p>&copy; 2024 Aidan Dennehy</p>
   <p>
-    <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a> |
+    <a href="https://www.linkedin.com/in/aidan-dennehy-bsc-msc-b36421b">LinkedIn</a> |
     <a href="https://github.com/duinneacha">GitHub</a> |
     <a href="https://twitter.com/duinneacha">Twitter</a>
   </p>
