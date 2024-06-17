@@ -21,14 +21,13 @@
 title: "Portfolio Website of Aidan Dennehy, BSc MSc"
 email: "duinneacha@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to the portfolio of Aidan Dennehy, showcasing expertise in web development and data science. 
+  Explore projects, skills, and professional experiences that highlight a strong background in both fields.
+
 baseurl: "/ad_portfolio"
 url: "https://duinneacha.github.io"
 twitter_username: duinneacha
 github_username: duinneacha
-
 # Build settings
 theme: minima
 plugins:

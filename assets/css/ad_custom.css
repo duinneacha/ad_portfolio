@@ -1,14 +1,4 @@
 /* Custom CSS */
-/* body {
-    background-color: #f0f0f0;
-}
-
-h1 {
-    color: #333;
-}
- */
-
-/* custom.css */
 
 body {
     background-color: #f0f0f0;
@@ -93,6 +83,11 @@ form textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px; /* Fixed height for textarea */
+    resize: none; /* Disable resizing */
 }
 
 form button {
