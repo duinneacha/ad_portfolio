@@ -28,7 +28,7 @@ title: "Home"
 <section id="testimonials">
   <h2>Testimonials</h2>
    <blockquote>
-    <p>"I'm not entirely sure what he does, but I know he's the best at it!" - My departed Mother 💗</p>
+    <p>"I'm not entirely sure what he does, but I know he's the best at it!" - Anonymous 💗</p>
   </blockquote>
   <blockquote>
     <p>"Aidan is an exceptional developer with a keen eye for detail. His work on our project was outstanding!" - Client Name</p>
@@ -43,12 +43,3 @@ title: "Home"
   <p>Feel free to reach out if you want to discuss a project or just want to connect.</p>
   <a href="/contact">Contact Me</a>
 </section>
-
-<footer>
-  <p>&copy; 2024 Aidan Dennehy</p>
-  <p>
-    <a href="https://www.linkedin.com/in/aidan-dennehy-bsc-msc-b36421b">LinkedIn</a> |
-    <a href="https://github.com/duinneacha">GitHub</a> |
-    <a href="https://twitter.com/duinneacha">Twitter</a>
-  </p>
-</footer>

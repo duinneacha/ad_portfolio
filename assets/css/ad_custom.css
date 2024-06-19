@@ -1,5 +1,29 @@
 /* Custom CSS */
 
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the html and body take full height */
+html, body {
+    height: 100%;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -7,6 +31,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -35,25 +61,31 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-
-main {
-    padding: 20px;
-    margin: 20px auto;
+/* Style the container */
+.container {
     max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
+    color: #fff;
     padding: 20px;
     background: #333;
-    color: #fff;
     margin-top: 20px;
+    font-size: 2em;
+}
+
+footer p a:hover {
+    color: #ddd;
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 20%;
     width: 150px;
     height: auto;
     display: block;
@@ -107,4 +139,61 @@ form button:hover {
 /* Hide honeypot field */
 input[name="_honeypot"] {
     display: none;
+}
+
+
+
+/* Time line */
+
+
+#timeline {
+position: relative;
+max-width: 600px;
+margin: 0 auto;
+}
+
+#timeline::after {
+content: '';
+position: absolute;
+width: 6px;
+background-color: #8b8b8b;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -3px;
+}
+
+#timeline details {
+background: #e8e8e8;
+color: #444;
+padding: 10px;
+position: relative;
+border-radius: 6px;
+width: 90%;
+margin: 10px 5%;
+}
+
+#timeline details:after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: -17px;
+background-color: white;
+border: 4px solid #8b8b8b;
+top: 15px;
+border-radius: 50%;
+z-index: 1;
+}
+
+#timeline details summary {
+font-weight: bold;
+margin: -10px;
+padding: 10px;
+background: #c5c5c5;
+list-style: none;
+}
+
+#timeline details p {
+margin: 5px 0;
 }
