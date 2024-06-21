@@ -92,6 +92,32 @@ img {
     margin: 20px auto;
 }
 
+
+footer p.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p.social-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+  }
+  
+  footer p.social-links a img {
+    width: 1em;  /* Adjust the width of the SVG icon */
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  footer p.social-links a:hover {
+    color: #ddd;
+  }
+  
+
+
 form {
     background: #fff;
     padding: 20px;

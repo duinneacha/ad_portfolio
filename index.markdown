@@ -14,7 +14,7 @@ title: "Home"
 
 <section id="about">
   <h2>About Me</h2>
-  <p>Welcome to my portfolio! I am Aidan Dennehy, a web developer and data scientist with a passion for creating innovative solutions. My journey in technology began with a City & Guilds Applications programming course in 1988/89 in Dublin, followed by a FAS graduate course in Software Engineering in Cork.</p>
+  <p>Welcome to my portfolio! I am Aidan Dennehy, a web developer and data scientist with a focus for creating innovative solutions.</p>
 
   <p>After working abroad for many years, I returned to education in 2013, completing a Focus programme and a FETAC Level 6 in Networks and Web Design at St. John's College in Cork. This rekindled my passion for learning, leading me to earn a BSc in Web Development and an MSc in Data Science & Analytics from Munster Technological University.</p>
 
@@ -25,7 +25,7 @@ title: "Home"
   <p>If you are interested in collaborating, whether it be for freelance work, full-time opportunities, or partnerships, feel free to get in touch via the <a href="{{ '/contact' | relative_url }}">Contact Me</a> page.</p>
 </section>
 
-<section id="testimonials">
+<!-- <section id="testimonials">
   <h2>Testimonials</h2>
    <blockquote>
     <p>"I'm not entirely sure what he does, but I know he's the best at it!" - Anonymous 💗</p>
@@ -36,7 +36,7 @@ title: "Home"
   <blockquote>
     <p>"Working with Aidan was a pleasure. His expertise in data science helped us unlock new insights." - Colleague Name</p>
   </blockquote>
-</section>
+</section> -->
 
 <section id="contact">
   <h2>Contact Me</h2>
