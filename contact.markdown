@@ -27,7 +27,9 @@ permalink: /contact/
     Do not fill this out:
     <input type="text" name="_honeypot" style="display:none;">
   </label>
-  <br>  
+  <br>
+  <!-- Google reCAPTCHA -->
+  <div class="g-recaptcha" data-sitekey="6Ld6nv4pAAAAAEVGRSoU6nwj7efuV0VmTCdVuRd-"></div>
   <br>
   <button type="submit">Send</button>
 </form>

@@ -19,3 +19,32 @@
 2016 - 2017 Networks and Web Design, St. Johns Cork
 2017 - 2021 MTU Computer Science and Web Development BSc.
 2021 - 2023 MTU Data Science and Analytics
+
+
+
+
+<form action="https://formspree.io/f/myyrqzyo" method="POST">
+  <label>
+    Your name:
+    <input type="text" name="name" required>
+  </label>
+  <br>
+  <label>
+    Your email:
+    <input type="email" name="_replyto" required>
+  </label>
+  <br>
+  <label>
+    Your message:
+    <textarea name="message" required></textarea>
+  </label>
+  <br>
+  <!-- Honeypot field -->
+  <label style="display:none;">
+    Do not fill this out:
+    <input type="text" name="_honeypot" style="display:none;">
+  </label>
+  <br>  
+  <br>
+  <button type="submit">Send</button>
+</form>

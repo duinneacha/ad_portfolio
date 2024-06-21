@@ -65,7 +65,7 @@ nav ul li a {
 .container {
     max-width: 800px;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -223,3 +223,48 @@ list-style: none;
 #timeline details p {
 margin: 5px 0;
 }
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+font-size: 1.5em;
+margin-top: 40px;
+}
+
+.services-section {
+margin-bottom: 20px;
+}
+
+.services-section p, .services-section ul {
+margin: 0 0 10px 0;
+padding: 0 20px;
+}
+
+.services-section ul {
+list-style-type: none;
+/* padding-left: 0; */
+}
+
+.services-section li {
+margin-bottom: 10px;
+}
+
+.services-section strong {
+color: #007bff;
+}
+
+.services-section a {
+color: #007bff;
+text-decoration: none;
+}
+
+.services-section a:hover {
+text-decoration: underline;
+}
+
+
