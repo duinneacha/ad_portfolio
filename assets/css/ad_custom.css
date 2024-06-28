@@ -268,3 +268,16 @@ text-decoration: underline;
 }
 
 
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
