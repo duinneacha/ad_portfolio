@@ -7,36 +7,21 @@ title: "Home"
 ---
 
 <header>
-  <img src="{{ '/assets/imgs/ad_port_photo.jpg' | relative_url }}" alt="Aidan Dennehy" style="width:150px; height:auto; border-radius:50%;">
-  <h1>Aidan Dennehy, BSc MSc</h1>
-  <h2>Web Developer & Data Scientist</h2>
+  <div class="ad-banner">
+    <img src="{{ '/assets/imgs/ad_port_photo.jpg' | relative_url }}" alt="Aidan Dennehy">
+    <h1>Aidan Dennehy, BSc MSc</h1>
+    <h2>Web Developer & Data Scientist</h2>
+  </div>
 </header>
 
 <section id="about">
   <h2>About Me</h2>
-  <p>Welcome to my portfolio! I am Aidan Dennehy, a web developer and data scientist with a focus for creating innovative solutions.</p>
-
-  <p>After working abroad for many years, I returned to education in 2013, completing a Focus programme and a FETAC Level 6 in Networks and Web Design at St. John's College in Cork. This rekindled my passion for learning, leading me to earn a BSc in Web Development and an MSc in Data Science & Analytics from Munster Technological University.</p>
-
-  <p>Professionally, I have diverse experience, including working as a Data Analyst at B&Q, where I developed bespoke audit tools, and participating in a British Overseas Development Authority project in India to implement Plant Maintenance and Production Reporting systems.</p>
-
-  <p>I am proficient in Python, R, and JavaScript, and have experience with web development frameworks like Vue, Laravel, and Jamstack. In data science, I utilise libraries such as pandas, scikit-learn, and OpenCV, along with visualization tools like Shiny, ggplot2, and D3.</p>
-
-  <p>If you are interested in collaborating, whether it be for freelance work, full-time opportunities, or partnerships, feel free to get in touch via the <a href="{{ '/contact' | relative_url }}">Contact Me</a> page.</p>
+  <p>Hello! I'm Aidan Dennehy, a passionate web developer and data scientist with a knack for crafting innovative solutions.</p>
+  <p>With a BSc in Web Development and an MSc in Data Science & Analytics from Munster Technological University, I blend technical expertise with creative problem-solving.</p>
+  <p>My journey has taken me from working as a Data Analyst at B&Q HEad Office to implementing systems in India for the British Overseas Development Authority.</p>
+  <p>Proficient in Python, R, and JavaScript, I leverage frameworks like Jekyll, Vue and Laravel, and data tools like pandas and scikit-learn to deliver impactful results.</p>
+  <p>Interested in collaborating? Let's connect through the <a href="{{ '/contact' | relative_url }}">Contact Me</a> page.</p>
 </section>
-
-<!-- <section id="testimonials">
-  <h2>Testimonials</h2>
-   <blockquote>
-    <p>"I'm not entirely sure what he does, but I know he's the best at it!" - Anonymous 💗</p>
-  </blockquote>
-  <blockquote>
-    <p>"Aidan is an exceptional developer with a keen eye for detail. His work on our project was outstanding!" - Client Name</p>
-  </blockquote>
-  <blockquote>
-    <p>"Working with Aidan was a pleasure. His expertise in data science helped us unlock new insights." - Colleague Name</p>
-  </blockquote>
-</section> -->
 
 <section id="contact">
   <h2>Contact Me</h2>
