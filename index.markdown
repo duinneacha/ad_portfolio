@@ -10,12 +10,11 @@ title: "Home"
   <div class="ad-banner">
     <img src="{{ '/assets/imgs/ad_port_photo.jpg' | relative_url }}" alt="Aidan Dennehy">
     <h1>Aidan Dennehy, BSc MSc</h1>
-    <h2>Data Scientist & Web Developer</h2>
+    <h2>Global Programmer & Data Analyst</h2>
   </div>
 </header>
 
 <section id="about">
-  <h2>Global Programmer & Data Analyst</h2>
   <p>Experienced in Europe, US, UK, and India</p>
   <p>Data Analyst in the UK</p>
   <p>BSc in Web Development (2021, MTU Ireland)</p>

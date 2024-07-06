@@ -41,31 +41,35 @@ header h2 {
     font-weight: normal;
 }
 
-/* Style the container */
-.container {
-    max-width: 800px;
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav {
+    background-color: #444;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0 0;
+    margin: 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
 }
 
 main {
@@ -296,28 +300,6 @@ h2 {
     font-weight: normal;
 }
 
-
-#about {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#about h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-#about p {
-    font-size: 1.2em;
-    margin: 10px 0;
-    color: #666;
-}
-
 #about {
     background-color: #f9f9f9;
     padding: 20px;
@@ -348,6 +330,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
 #contact p {
     font-size: 1.2em;
     margin: 10px 0;
@@ -368,4 +356,3 @@ h2 {
 #contact a:hover {
     background-color: #0056b3;
 }
-
