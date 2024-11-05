@@ -107,7 +107,7 @@ footer p.social-links a {
 }
 
 footer p.social-links a img {
-    width: 1em;  /* Adjust the width of the SVG icon */
+    width: 1em;
     height: auto;
     vertical-align: middle;
 }
@@ -150,8 +150,8 @@ form textarea {
 }
 
 form textarea {
-    height: 150px; /* Fixed height for textarea */
-    resize: none; /* Disable resizing */
+    height: 150px;
+    resize: none;
 }
 
 form button {
@@ -171,59 +171,6 @@ form button:hover {
 /* Hide honeypot field */
 input[name="_honeypot"] {
     display: none;
-}
-
-/* Timeline */
-#timeline {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #8b8b8b;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-#timeline details {
-    background: #e8e8e8;
-    color: #444;
-    padding: 10px;
-    position: relative;
-    border-radius: 6px;
-    width: 90%;
-    margin: 10px 5%;
-}
-
-#timeline details:after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #8b8b8b;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-#timeline details summary {
-    font-weight: bold;
-    margin: -10px;
-    padding: 10px;
-    background: #c5c5c5;
-    list-style: none;
-}
-
-#timeline details p {
-    margin: 5px 0;
 }
 
 h1, h2 {
